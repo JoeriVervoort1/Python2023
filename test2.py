@@ -1,1 +1,0 @@
-print('test commando in tweede bestand')
