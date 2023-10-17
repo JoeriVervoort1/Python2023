@@ -4,8 +4,8 @@ film3d = "nee"
 
 
 
-if(leeftijd < 12):
-    prijs = 3
+if(leeftijd < 14):
+    prijs = 4
 elif(leeftijd < 17):
     prijs = 4
 else:
