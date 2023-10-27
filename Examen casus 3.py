@@ -70,4 +70,4 @@ y = 0
 for i in lst:                                                   # for loop om door de lijst te gaan
     y += 1
     print("fiets",y,i,"€")                                      # printen van de prijs per fiets
-print("De totaal prijs bedraagt",totaalprijs,"€")               # printen van de totaalprijs
+print("De totaal prijs bedraagt",sum(lst),"€")               # printen van de totaalprijs

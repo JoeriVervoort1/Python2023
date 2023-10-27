@@ -1,4 +1,3 @@
-
 # functie om de aanspreking te bepalen
 def aanspreking(geslacht,Familie_naam,beroep):
     lst = []
@@ -11,7 +10,7 @@ def aanspreking(geslacht,Familie_naam,beroep):
     elif beroep == "PROFESSOR":
         lst.append("Prof.")     # toevoeging van Prof. in lijst
     elif beroep == "INGENIEUR":
-        lst.append("Ir")        # toevoeging van Ir. in lijst
+        lst.append("Ir.")        # toevoeging van Ir. in lijst
     else:
         lst.append("")          # toevoeging zonder aanspreking
     lst.append(Familie_naam)

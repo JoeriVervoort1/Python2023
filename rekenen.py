@@ -2,26 +2,33 @@ import random
 
 def optellen1(optellen):
     while optellen != "stop":
-        if optellen == "stop":
-            break
         x = random.randint(0,10)
         y = random.randint(0,10)
+        if x > 5 and y > 5:
+            y = random.randint(0,5)
         print(x ,"+", y)
-        z = int(input(""))
+        z = (input(""))
+        if z == "stop":
+            break
+        else:
+            z = int(z)
         if z == (x+y):
             print("Goed zo Laura <3")
         else:
             print("probeer opnieuw")
-
 def aftrekken(aftrekken):
     while aftrekken != "stop":
-        if aftrekken == "stop":
-            break
         x = random.randint(0,10)
         y = random.randint(0,10)
+        while x < y:
+            y = random.randint(0,10)
         print(x ,"-", y)
-        z = int(input(""))
-        if z == (x-y):
+        z = (input(""))
+        if z == "stop":
+            break
+        else:
+            z = int(z)
+        if z == (x - y):
             print("Goed zo Laura <3")
         else:
             print("probeer opnieuw")
